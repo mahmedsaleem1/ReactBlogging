@@ -40,7 +40,7 @@ export class AuthService {
         try {
             await this.account.deleteSessions()
         } catch (error) {
-            throw
+            throw error
         }
     }
 
