@@ -3,11 +3,13 @@ import Footer from "./Footer/footer.component"
 import Container from "./container/Container"
 import Logo from "./Logo"
 import Logout from "./Header/Logout.Button"
+import RTE from "./RTE"
 
 export {
     Header,
     Footer,
     Container, 
     Logo,
-    Logout
+    Logout,
+    RTE
 }
